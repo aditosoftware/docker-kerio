@@ -7,6 +7,6 @@ RUN apt-get update && \
 COPY ./src/config/entrypoint.sh /
 RUN chmod +x /entrypoint.sh 
 
-COPY ./src/backup/C20170504T150606Z.zip /backup/
+COPY ./src/backup/C20170630T145741Z.zip /backup/
 
 ENTRYPOINT /entrypoint.sh 
