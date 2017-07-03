@@ -1,1 +1,5 @@
-http://192.168.99.100/calendars/192.168.99.100/testuser/Calendar
+Example CalDAV URL:
+http://192.168.99.100/calendars/domain/testuser/Calendar
+
+Restart Kerio Connect:
+sudo service kerio-connect restart
